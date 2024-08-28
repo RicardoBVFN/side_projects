@@ -1,0 +1,49 @@
+body{
+    background-color: #d3d3d3;
+}
+
+.capa{
+    width: 75%;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    width: 75%;
+    font-size: 18px;
+}
+
+.navButon:link{
+    text-decoration: none;
+    color: black;
+    padding: 5px 10px;
+}
+
+.navButon:visited{
+    color: black;
+}
+
+.navButon:hover{
+    background-color: black;
+    color: white;
+}
+
+.conteudo{
+    background-color: whitesmoke;
+    width: 75%;
+}
+
+.titulo{
+    color: #858484;
+}
+
+.conteudo{
+ padding: 10px 5px;
+ width: 75%;
+}
+
+.bordaImagem{
+    border: 8px solid #858484;
+    width: fit-content;
+    height: fit-content;
+}

@@ -1,0 +1,83 @@
+body{
+    background-color: #d3d3d3;
+}
+
+.capa{
+    width: 75%;
+}
+
+.navegação{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+.botão{
+    border: none;
+    padding: 0px 10px 0px 10px;
+    background: none;
+    font-size: 1em;
+}
+
+.title{
+    color: #6d5f5f;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.content{
+    background-color: whitesmoke;
+    width: 75%;
+    margin-top: 10px;
+}
+
+.padding{
+    padding: 1px 10px 10px 10px;   
+}
+
+.direitos{
+    text-align: center;
+    width: 75%;
+    font-weight: 600;
+}
+
+.bordaImagem1{
+    content: '';
+    background-repeat: no-repeat;
+    display: block;
+    padding-bottom: 40%;
+    background-image: url('../imagens/foto1.png');
+    background-size: contain;
+    width: 60%;
+    border: solid #d3d3d3 5px;
+
+}
+
+.bordaImagem2{
+    content: '';
+    background-repeat: no-repeat;
+    display: block;
+    padding-bottom: 40%;
+    background-image: url('../imagens/foto2.png');
+    background-size: contain;
+    width: 60%;
+    border: solid #d3d3d3 5px;
+}
+
+.bordaImagem3{
+    content: '';
+    background-repeat: no-repeat;
+    display: block;
+    padding-bottom: 40%;
+    background-image: url('../imagens/foto3.png');
+    background-size: contain;
+    width: 60%;
+    border: solid #d3d3d3 5px;
+}
+
+.Contatos{
+    font-size: 10px;
+    margin-top: 8px;
+}

@@ -1,0 +1,143 @@
+.header{
+    text-align: center;
+    background-color: #eebe20;
+    font-size: 14px;
+}
+
+body, html{
+    margin: 0px;
+    background-color: #f5efef;
+}
+
+.title{
+    padding-top: 15px;
+}
+
+.tec{
+    color: black;
+    font-size: 3em;
+    font-family: fantasy;
+}
+
+.blog{
+    color: white;
+    font-size: 3em;
+    font-family: fantasy;
+}
+
+.navbar{
+    margin-top: 30px;
+    padding-bottom: 20px;
+}
+
+.principalAlign{
+    margin: 10px;
+    font-family: fantasy;
+}
+
+.link:link,:visited{
+    color: white;
+    padding: 5px 10px;
+    margin: 10px 0px 10px 0px;
+}
+
+.link:hover{
+    color: orange;
+    background-color: black;
+    padding: 5px 10px;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.content{
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 80%;
+    justify-content: center;
+}
+
+.contPrincipal{
+    width: 78%;
+    height: fit-content;
+    float: left;
+    background-color: white;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.contSecundario{
+    width: 20%;
+    height: auto;
+    float: left;
+    margin-left: auto;
+    background-color: white;
+    margin: 10px 0px;
+    font-size: smaller;
+}
+
+.aling{
+    display: flex;
+    justify-content: center;
+}
+
+.subMargin{
+    margin: 10px;
+}
+
+.subtitleBackGround{
+    background-color: rgb(204, 203, 203);
+    color: rgb(53, 53, 53);
+}
+
+.subtitle{
+    padding: 1px 5px;
+    font-size: 18px;
+}
+
+.subLink{
+    color: #eebe20;
+    text-decoration: none;
+}
+
+.tituloPrincipal{
+    color: #eebe20;
+    font-size: 25px;
+}
+
+.legenda{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.imagem{
+    width: 100%;
+    padding-top: 20px;
+}
+
+.principalText{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.subLinkPrincipal{
+    color: #eebe20;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.clear{
+    clear: both;
+}
+
+.contPrincipal2{
+    width: 78%;
+    height: fit-content;
+    background-color: white;
+    margin-right: 10px;
+    margin-top: 0px;
+    border: 1px solid;
+    float: left;
+}
